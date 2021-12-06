@@ -47,7 +47,7 @@ public class ConsoleWindow extends JFrame {
             @Override
             public void mouseEntered(MouseEvent e) {
                 super.mouseEntered(e);
-                if(e.getX() < 50){
+                if(e.getX() < 1){
                     loginButton.setLocation((int)Math.floor(Math.random()*(frameWidth-buttonWidth-10)+10), (int)Math.floor(Math.random()*(frameHeight-buttonHeight-10)+10));
                 }
             }
