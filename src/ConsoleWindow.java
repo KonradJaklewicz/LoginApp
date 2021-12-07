@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.Random;
 
 public class ConsoleWindow extends JFrame {
     public static void main(String[] args) {
@@ -36,6 +37,7 @@ public class ConsoleWindow extends JFrame {
         int buttonHeight = 40;
         int LoginX = 50;
         int LoginY = 50;
+        Random rand = new Random();
         setBounds(100, 100, frameWidth, frameHeight);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -48,7 +50,7 @@ public class ConsoleWindow extends JFrame {
             public void mouseEntered(MouseEvent e) {
                 super.mouseEntered(e);
                 if(e.getX() < loginButton.getWidth()-1){
-                    loginButton.setLocation((int)Math.floor(Math.random()*(frameWidth-buttonWidth-10)+10), (int)Math.floor(Math.random()*(frameHeight-buttonHeight-10)+10));
+                    loginButton.setLocation(rand.nextInt(frameWidth-buttonWidth-60)+30,rand.nextInt(frameHeight-buttonHeight-60)+30);
                 }
             }
         });
