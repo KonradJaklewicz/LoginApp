@@ -1,1 +1,1 @@
-Przycisk "Login" losuje nową pozycję (ucieka) w obrębie okna po najechaniu na niego kursorem. Jedyny sposób na najechanie kursorem na przycisk i trzymanie go w miejscu to wjechanie kursorem na niego od prawej strony. Natomiast przycisk "Cancel" resetuje pozycje przycisku "Login".
+Program rysuje (tam gdzie wskazuje kursor) kwadrat przy naciśnięciu klawisza 'k' oraz koło przy naciśnięciu klawisza 'o'.
