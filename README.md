@@ -1,4 +1,1 @@
-Zestawy danych do logowania:
-Login: Konrad Hasło: 123
-L: Piotr H: qwerty
-L: admin H: abcdefgh
+Przycisk "Login" losuje nową pozycję (ucieka) w obrębie okna po najechaniu na niego kursorem. Jedyny sposób na najechanie kursorem na przycisk i trzymanie go w miejscu to wjechanie kursorem na niego od prawej strony. Natomiast przycisk "Cancel" resetuje pozycje przycisku "Login".
